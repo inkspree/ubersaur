@@ -1,0 +1,11 @@
+{
+	"name": "Ubercontext",
+	"version": "0.0.1",
+	"dependencies": {
+		"zombie": "1.4.x"
+	},
+	"engines": {
+		"node": "0.8.x",
+		"npm": "1.1.x"
+	}
+}
