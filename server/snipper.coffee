@@ -13,6 +13,7 @@ meronym
 
 available
 ubersaur
+ubernik
 uberlex ubernym ubervo ubervocal ubertongue
 wernic
 kantext

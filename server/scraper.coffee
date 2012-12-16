@@ -32,7 +32,7 @@ saveSentence = (sentence, page, zombie) ->
 	#console.log 'found?', found
 	return if found
 	text = zombie.text '.text', (sentence.querySelector '.sentenceContent')
-	words = (word for word in text.split(/[\s,!.?]+/) when word.length)
+	words = (word for word in text.split(/[\s,.!?":;]+/) when word.length)
 	Sentences.insert
 		text: text
 		audio: href
