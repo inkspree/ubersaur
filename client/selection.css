@@ -1,0 +1,69 @@
+#selection {
+	color: #363a3a;
+	font-weight: 200;
+}
+
+.strip {
+	background: rgba(54, 58, 58, 0.6); /* #363a3a */
+	padding: 0.3em;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+
+#logo {
+	position: absolute;
+	font-size: 250%;
+	top: 10px; left: 10px;
+	font-weight: bold;
+}
+.niche {
+	position: relative;
+	top: 70px;
+	height: 240px;
+  background: #494D4D;
+	width: 60px;
+}
+.arrow {
+	position: relative;
+	top: 30px;
+	height: 100px;
+	width: 35px;
+	background: #F0BE5D;
+
+	/*
+	border-style: solid;
+	border-width: 35px;
+	border-color: transparent;
+	border-right-color: #F0BE5D;
+	*/
+}
+
+#become, #do {
+	position: absolute;
+	bottom: 0;
+}
+
+.bar {
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+	background: rgba(54, 58, 58, 0.6); /* #363a3a */
+	border-radius: 3px;
+}
+#barvial {
+	width: 100px;
+	right: 10px;
+}
+#barfill { 
+	width: 70px;
+	right: 40px; 
+	height: 22px; bottom: 9px;
+}
+#barvial .off { 
+	position: absolute;
+	right: 7px;
+	height: 40%;
+	top: 1px;
+	border-left: 3px solid red;
+	padding-left: 5px;
+}

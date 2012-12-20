@@ -1,0 +1,41 @@
+<template name='reptile'>
+  <h1>Reptile Legend</h1>
+  <h1>Reptile Shadow</h1>
+  <h1>Reptile Context</h1>
+	
+	<div id='landing'>Show HN: Built and designed this over the week</div>
+	<div id='landing'>Inspired by the LEGO Story I Created This</div>
+
+	{{> browse}}
+
+	<div id="menu">
+		<span>2012 &copy; Reptile</span>
+		<a href="/">Home</a>
+		<a href="/about">About</a>
+		<a href="/contact">Contact Vic</a>
+	</div>
+	<!--div id="gamify">Are you a programmer? <a href="/gamify">Gamify your Reptile experience</a> with Pomodoros!</div-->
+</template>
+
+<template name='browse'>
+	<div id="wrapper">
+		<div class='tile' id='selection'>{{> selection}}</div>
+		<div class='featured'>
+			{{> featured}}<span class='tile selected'><span class='overlay'></span></span>{{> featured}}{{> featured}}
+		</div>
+		<div class='featured caption'>Featured projects today. See <a href='/featuring'>how to be featured</a> at no cost. 
+		The last spot is <a href='/featuring#paid'>for sale</a> for <strong class='yellow'>$5</strong> a full day.
+		<!--Someone paid us <strong class='yellow'>$10</strong> to put this fourth project here.</div> -->
+	</div>
+</template>
+
+<template name='featured'><span class='tile'><span class='overlay'></span></span></template>
+
+<template name='gamify'>
+	<h1>Coming soon!</h1>
+	{{#if hasEmail}}
+		We've added your user to our Pomodoro notification list, and we'll send you an email
+	{{else}}
+		It seems you haven't registered an email with Outreach. Please enter your email below to be notified of when Pomodoros are ready (we won't send you any other email that you've not explicitly signed up for).
+	{{/if}}
+</template>
